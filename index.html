@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <link rel="stylesheet" href="src/style.css">
     <title>AI Dementia Activity Generator</title>
   </head>
@@ -13,7 +14,7 @@
         </header>
 
         <main>
-          <form>
+          <form id="activity-generator-form">
             <input type="text" placeholder="Enter the type of activity"
               autofocus
               required
@@ -22,13 +23,7 @@
             />
             <input type="submit" class="submit-button" />
           </form>
-          <div class="activity">
-            Look through old pictures
-            <br />
-            Work some type of puzzle
-            <br />
-            Cuddle a pet
-          </div>
+          <div class="activity" id="activity"></div>
         </main>
 
         <footer>
