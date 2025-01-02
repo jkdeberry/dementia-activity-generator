@@ -6,6 +6,7 @@ body {
 a {
   color: rgb(99, 121, 218);
 }
+
 .container {
   margin: 120px auto;
   max-width: 600px;
@@ -45,7 +46,7 @@ form {
   margin-left: 10px;
   background-color: #9daffc;
   color: white;
-  border: 1px solid rgb(99, 121, 218);  
+  border: none;  
   width: 150px;
   font-size: 16px;
   border-radius: 50px;
