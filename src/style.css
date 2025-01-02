@@ -39,7 +39,7 @@ form {
   font-size: 16px;
   border-radius: 50px;
   line-height: 20px;
-  color: #9daffc;
+  color: black;
 }
 
 .submit-button {
@@ -59,6 +59,11 @@ form {
   padding: 20px;
   line-height: 2;
   border-left: 5px solid black;
+}
+
+.activity strong {
+  color: black;
+  text-align: left;
 }
 
 footer {
