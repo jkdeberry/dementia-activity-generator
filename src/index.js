@@ -1,8 +1,8 @@
 function generateActivity(event) {
     event.preventDefault();
 
-    newTypewriter("#activity", {
-      strings: "Work a puzzle",
+    new Typewriter("#activity", {
+      strings: ["Work a puzzle"],
       autoStart: true,
       delay: 1,
       cursor: "",
