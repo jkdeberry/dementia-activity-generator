@@ -1,10 +1,10 @@
 body {
-    background-color: #9daffc;
+    background-color: rgb(99, 121, 218);
     font-family:Georgia, 'Times New Roman', Times, serif
 }
 
 a {
-  color: rgb(99, 121, 218);
+  color: #9daffc;
 }
 
 .container {
@@ -20,31 +20,42 @@ h1 {
   text-align: center;
   font-weight: 800;
   font-size: 36px;
-  line-height: 2.0;
+  line-height: 1.5;
   color: black;
 }
 
-form {
-  padding: 30px;
-  background-color: rgb(99, 121, 218);
+.form-container {
+  background-color: #9daffc;
+  margin-bottom: 25px;
+  padding: 15px 20px;
   border-radius: 10px;
-  display: flex;
-  margin-bottom: 30px;
+}
+
+form { 
+  display: flex;   
+}
+
+.hint {
+  line-height: 1.5;
+  font-size: 12px;
+  margin-top: 12px;
+  opacity: 0.6;
 }
 
 .instructions {
+  background-color: white;
   padding: 16px;
   border: 1px solid rgb(99, 121, 218);
   width: 80%;
   font-size: 16px;
   border-radius: 50px;
-  line-height: 20px;
+  line-height: 30px;
   color: black;
 }
 
 .submit-button {
   margin-left: 10px;
-  background-color: #9daffc;
+  background-color: rgb(99, 121, 218);
   color: white;
   border: none;  
   width: 150px;
@@ -55,19 +66,33 @@ form {
 
 .activity {
   font-size: 14px;
-  background-color: rgb(99, 121, 218);
+  background-color: #9daffc;
   padding: 20px;
   line-height: 2;
-  border-left: 5px solid black;
+  border-left: 5px solid white;
+  margin-top: 20px;
 }
 
-.activity strong {
-  color: black;
-  text-align: left;
+.hidden {
+  display: none;
 }
 
 footer {
   text-align: center;
   font-size: 12.5px;
   margin-top: 30px;  
+}
+
+@keyframes blink {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
+/* Apply the blink animation to the desired element */
+.generating {
+  animation: blink 1s infinite;
 }
