@@ -3,7 +3,7 @@
   function displayActivity(response) {
     
     new Typewriter("#activity", {
-      strings: response.data.answer,
+      strings: response.data.answer.replace("```html", "").replace("```", ""),
       autoStart: true,
       delay: 1,
       cursor: "",
