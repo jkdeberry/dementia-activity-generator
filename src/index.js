@@ -22,7 +22,7 @@ function generateActivity(event) {
 
     let activityElement = document.querySelector("#activity");
     activityElement.classList.remove("hidden");
-    activityElement.innerHTML = `<div class="generating">⏳Generating a dementia activity related to ${instructionsInput.value}</div>`
+    activityElement.innerHTML = `<div class="generating">⏳Generating an activity related to ${instructionsInput.value}</div>`
 
     axios.get(apiURL).then(displayActivity);    
 }
