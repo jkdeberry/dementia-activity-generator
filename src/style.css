@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(99, 121, 218);
+    background-color: #6c63ff;
     font-family:Georgia, 'Times New Roman', Times, serif;
     text-align: center;
 }
@@ -26,7 +26,7 @@ h1 {
 }
 
 .form {
-  background-color: #9daffc;
+  background-color: white;
   margin-bottom: 30px;
   padding: 40px;
   border-radius: 10px;
@@ -37,7 +37,6 @@ h1 {
   background-color: #9daffc;
   margin-bottom: 30px;
   border-radius: 30px;
-  box-shadow: 0px 20px 60px rgb(99, 121, 218);
   padding: 30px 15px;
 }
 
@@ -51,31 +50,32 @@ h1 {
 .instructions {
   background-color: white;
   padding: 16px;
-  border: 1px solid rgb(99, 121, 218);
   width: 80%;
   font-size: 16px;
   border-radius: 50px;
   line-height: 20px;
   color: black;
+  border: none;
 }
 
 .submit-button {
   margin-left: 10px;
-  background-color: rgb(99, 121, 218);
+  background-color: #6c63ff;
   color: white;
   border: none;  
   width: 100px;
   font-size: 16px;
   border-radius: 40px;
   padding: 12px 24px;
+  margin-top: 20px
 }
 
 .activity {
   font-size: 16px;
-  background-color: #9daffc;
+  background-color: #6c63ff;
   padding: 20px;
   line-height: 1;
-  border-left: 3px solid white;
+  border-left: 3px solid black;
 }
 
 
