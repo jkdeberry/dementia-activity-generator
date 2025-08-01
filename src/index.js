@@ -17,7 +17,7 @@ function generateActivity(event) {
     let instructionsInput = document.querySelector("#user-instructions");
     let apiKey = "4e2df5aotaa983694533f2b4440ef095";
     let prompt = `User instructions: Generate an activity for a person with dementia involving ${instructionsInput.value}`;
-    let context = "You are a Dementia activity expert and love to assist the elderly with exercises indoors and outside. Your mission is to find different exercises for them to perform that are very simple with short text in basic html. Make sure to follow the user instructions below. Sign the activity with <strong>SheCodes AI</strong> inside a <strong> element";
+    let context = "You are a Dementia activity expert. Your mission is to return a list of 3–5 short, clear activity steps using simple <ul><li> HTML for better readability. Always end the output with <strong>SheCodes AI</strong> on its own line.";
     let apiURL = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
 
     let activityElement = document.querySelector("#activity");
