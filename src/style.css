@@ -73,8 +73,12 @@ h1 {
   border-left: 2px solid #397d7b;
   border-right: 2px solid #397d7b;
   text-align: justify;
-  text-align-last: center;
+  text-align-last: left;
   color: #2b2b2b;
+  max-width: 700px;
+  margin: 0 auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .hidden {
@@ -112,4 +116,14 @@ footer {
   display: block;
   margin-top: 20px;
   text-align: center;
+}
+
+@media (max-width: 480px) {
+  .activity {
+    padding: 15px;
+  }
+
+  .activity ul {
+    padding-left: 20px;
+  }
 }
