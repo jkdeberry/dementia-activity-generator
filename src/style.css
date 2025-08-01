@@ -52,6 +52,11 @@ h1 {
   margin-bottom: 10px;
 }
 
+.instructions:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #a5d5d3;
+}
+
 .submit-button {
   display: block;
   margin: 20px auto 0 auto;
